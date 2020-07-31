@@ -177,7 +177,7 @@ elif [ $CPU_RPI -eq 1 ] && [ $OS_LIBREELEC -eq 1 ] && [ $RPI_1 -eq 1 ]; then
 elif [ $CPU_RPI -eq 1 ] && [ $OS_LIBREELEC -eq 1 ] && [ $RPI_2 -eq 1 ]; then
 	HYPERION_RELEASE=$HYPERION_ADDRESS/hyperion_rpi2_le.tar.gz
 	OE_DEPENDECIES=$HYPERION_ADDRESS/hyperion.deps.openelec-rpi.tar.gz
-elif [ $CPU_RPI -eq 1 ] && [ $OS_LIBREELEC -eq 1 ] && [ $RPI_3 -eq 1 ]; then
+elif [ $CPU_RPI -eq 1 ] && [ $OS_LIBREELEC -eq 1 ] && [ $RPI_4 -eq 1 ]; then
 	HYPERION_RELEASE=$HYPERION_ADDRESS/hyperion_rpi3_le.tar.gz
 	OE_DEPENDECIES=$HYPERION_ADDRESS/hyperion.deps.openelec-rpi.tar.gz
 elif [ $CPU_RPI -eq 1 ] && [ $OS_OPENELEC -eq 1 ] && [ $RPI_1 -eq 1 ]; then
